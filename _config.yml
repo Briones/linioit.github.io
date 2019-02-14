@@ -23,5 +23,3 @@ exclude:
   - vendor/ruby/
 keep_files:
   - assets
-  - assets/css
-  - assets/css/blog.css

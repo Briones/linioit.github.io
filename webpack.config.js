@@ -16,6 +16,6 @@ module.exports = {
     }]
   },
   plugins: [
-    new ExtractTextPlugin('assets/css/blog.css'),
+    new ExtractTextPlugin('../assets/blog.css'),
   ]
 };
