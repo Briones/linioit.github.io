@@ -1,0 +1,7 @@
+public/
+!public/assets/css/blog.css
+node_modules
+.sass-cache
+.jekyll-metadata
+npm-debug.log
+yarn-error.log

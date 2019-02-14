@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="blog-post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+  <p class="blog-post-meta">
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ page.date | date: site.date_format_post }}
+    </time>
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      by <span class="text-muted" itemprop="name">{{ page.author | escape }}</span>
+    </span>
+  </p>
+
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>

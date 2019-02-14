@@ -1,0 +1,27 @@
+title: Linio Engineering Blog
+date_format_home: "%b %-d, %Y"
+date_format_post: "%b %-d, %Y"
+url: "https://engineering.linio.com"
+repository: LinioIT/linioit.github.io
+markdown: kramdown
+destination: public
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - postcss.config.js
+  - webpack.config.js
+  - yarn.lock
+  - node_modules
+  - .sass-cache
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+keep_files:
+  - assets
+  - assets/css
+  - assets/css/blog.css
