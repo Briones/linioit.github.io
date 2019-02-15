@@ -8,3 +8,9 @@ $dark: #3d3d3d;
 $font-family-serif: Merriweather, Georgia, serif;
 
 @import "~bootstrap/scss/bootstrap";
+
+.social-icon {
+  height: auto;
+  width: 20px;
+  vertical-align: -10%;
+}

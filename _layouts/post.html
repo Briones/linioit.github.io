@@ -8,7 +8,16 @@ layout: default
       {{ page.date | date: site.date_format_post }}
     </time>
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      by <span class="text-muted" itemprop="name">{{ page.author | escape }}</span>
+      {% assign author = site.data.authors[page.author] %}
+
+      {% if author %}
+        <span>
+            {{ site.data.translations[page.lang].written_by }} <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+            {% if author.twitter %}
+              <a href="{{ author.twitter }}" target="_blank"><img src="/images/twitter-icon.png" class="social-icon"/></a>
+            {% endif %}
+        </span>
+      {% endif %}
     </span>
   </p>
 
