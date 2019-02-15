@@ -9,13 +9,13 @@ lang: es
 La importancia de los estándares de código
 ==========================================
 
-Los estándares se encuentran constantemente presentes en nuestra vida cotidiana, son importantes para mantener un cierto orden en las cosas, la ingeniería de software no es la excepción, los estándares de código son necesarios para que desarrollemos sistemas de calidad. 
+Los estándares se encuentran constantemente presentes en nuestra vida cotidiana, son importantes para mantener un cierto orden en las cosas. La ingeniería de software no es la excepción y los estándares de código son necesarios para que desarrollemos sistemas de calidad.
 Para las organizaciones de nuestra época el correcto funcionamiento de sus aplicaciones digitales representa crecimiento y eso es algo que en Linio sabemos.
 
 ¿Qué son los estándares de código?
 ----------------------------------
 
-Son una serie de reglas definidas para un lenguaje de programación o bien un estilo de programación especifico. Los estándares de código se aseguran de que los desarrolladores que contribuyen en un proyecto sigan ciertas pautas al escribir código, dando como resultado un producto consistente, fácil de leer y a su vez de mantener. 
+Son una serie de reglas definidas para un lenguaje de programación o bien un estilo de programación específico. Los estándares de código se aseguran de que los desarrolladores que contribuyen en un proyecto sigan ciertas pautas al escribir código, dando como resultado un producto consistente, fácil de leer y a su vez de mantener.
 
 Un poco de historia
 -------------------
@@ -26,7 +26,7 @@ En Linio sucedió algo así, en un inicio no contábamos con estándares y era e
 
 "Más vale paso que dure, que trote que canse." la migración de Linio a las buenas prácticas ha sido progresiva, no fue cosa de un solo día, se comenzó a adoptar en los nuevos proyectos y poco a poco se fue exigiendo un nivel adecuado en cada cambio que se enviaba a nuestros repositorios, en un inicio fue difícil adaptarnos, de estar acostumbrados a no tener reglas establecidas para la revisión de código a tener muy presente estas reglas para que todos los desarrolladores dieran su visto bueno en el cambio que solicitabas empujar a los repositorios.
 
-Hoy en día contamos con un conjunto de estándares, incluso con algunos procesos automatizados, como lo es el estilo de código, con ayuda de un script podemos detectar lineas de código que no cumplen con nuestros estándares antes de intentar empujarlas al proyecto, aún hay muchas cosas por mejorar y estándares por añadir, es un trabajo constante y seguimos trabajando en ello.
+Hoy en día contamos con un conjunto de estándares, incluso con algunos procesos automatizados, como lo es el estilo de código, con ayuda de un script podemos detectar líneas de código que no cumplen con nuestros estándares antes de intentar empujarlas al proyecto, aún hay muchas cosas por mejorar y estándares por añadir, es un trabajo constante y seguimos trabajando en ello.
 
 ¿Cómo comienzo la aplicación de estándares de código en mis proyectos?
 ---------------------------------------------------------------
@@ -42,9 +42,9 @@ Consideraciones:
 
 3. Asignación de nombres en variables, funciones etc. 
 
-4. Establecer limites en complejidad o longitud de funciones.
+4. Establecer límites en complejidad o longitud de funciones.
 
-Y lo más importante, no detenerse en la aplicación de estas reglas, no incrementemos la deuda técnica en nuestros proyectos, quizá al día de hoy tengas un proyecto muy grande en el que jamás se han aplicado estándares y te parece una perdida de tiempo comenzar a hacerlo, pero es una inversión que vale la pena, para ir construyendo no solo un producto de calidad, sino también un equipo de ingeniería con calidad. Si la implementación de estos estándares comienza a ser un verdadero dolor de cabeza, es muy recomendable considerar una refactorización completa de tu sistema "divide y vencerás" es recomendable iniciar modulo por modulo.
+Y lo más importante, no detenerse en la aplicación de estas reglas, no incrementemos la deuda técnica en nuestros proyectos, quizá al día de hoy tengas un proyecto muy grande en el que jamás se han aplicado estándares y te parece una pérdida de tiempo comenzar a hacerlo, pero es una inversión que vale la pena, para ir construyendo no solo un producto de calidad, sino también un equipo de ingeniería con calidad. Si la implementación de estos estándares comienza a ser un verdadero dolor de cabeza, es muy recomendable considerar una refactorización completa de tu sistema "divide y vencerás" es recomendable iniciar módulo por módulo.
 
 Ventajas de la aplicación de estándares:
 ---------------------------------------
@@ -55,7 +55,7 @@ Ventajas de la aplicación de estándares:
 2. Reducción de la complejidad:
    El cumplir con las reglas acerca del estilo de código ayuda a construir código más limpio, permitiéndonos detectar fácilmente oportunidades para simplificar nuestras funciones.
    
-3. Código de facil lectura:
+3. Código de fácil lectura:
    El respetar los estándares en nuestros proyectos le ha permitido a nuevos miembros del equipo acoplarse más fácilmente al ritmo de trabajo y a entender mejor el código en los repositorios.
    
 4. Código reusable:
@@ -64,7 +64,7 @@ Ventajas de la aplicación de estándares:
 Principios de código limpio recomendados:
 ----------------------------------------
 
-Es una buena estrategia buscar que todo el equipo de ingenieros este familiarizado con principios de código limpio, por ello a continuación se enlistan algunos de los principios que nos inspiraron a crear nuestros estándares y a buscar calidad en nuestros desarrollos.
+Es una buena estrategia buscar que todo el equipo de ingenieros esté familiarizado con principios de código limpio, por ello a continuación se enlistan algunos de los principios que nos inspiraron a crear nuestros estándares y a buscar calidad en nuestros desarrollos.
 
 1. DRY - Don't repeat yourself.
 2. YAGNI - You Ain’t Gonna Need It.

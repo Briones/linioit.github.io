@@ -9,7 +9,7 @@ lang: en
 Importance of code standards
 ============================
 
-Standards are constantly present in our lives, they are important to maintain order in things, software engineering is not the exception, code standards are necessary to develop systems with quality.
+Standards are constantly present in our lives, they are important to maintain order in things. Software engineering is not the exception and code standards are necessary to develop quality systems.
 For the companies of our time the quality of their digital applications represents growth and that is something that Linio knows.
 
 What are code standards?
